@@ -1,0 +1,14 @@
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\obj\Debug\netcoreapp3.1\CursoProfessor.csproj.AssemblyReference.cache
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\obj\Debug\netcoreapp3.1\CursoProfessor.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\obj\Debug\netcoreapp3.1\CursoProfessor.AssemblyInfoInputs.cache
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\obj\Debug\netcoreapp3.1\CursoProfessor.AssemblyInfo.cs
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\obj\Debug\netcoreapp3.1\CursoProfessor.csproj.CoreCompileInputs.cache
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\CursoProfessor.exe
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\CursoProfessor.deps.json
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\CursoProfessor.runtimeconfig.json
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\CursoProfessor.runtimeconfig.dev.json
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\CursoProfessor.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\CursoProfessor.pdb
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\obj\Debug\netcoreapp3.1\CursoProfessor.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\obj\Debug\netcoreapp3.1\CursoProfessor.pdb
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\obj\Debug\netcoreapp3.1\CursoProfessor.genruntimeconfig.cache
