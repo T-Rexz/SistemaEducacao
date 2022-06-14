@@ -23,10 +23,9 @@ namespace CursoProfessor.Servico
 
         public Curso CadastrarCurso(CursoViewModel cursoRecebido)
         {
-            Curso curso = new Curso();
+            Curso curso = new Curso(cursoRecebido);
 
-            curso.idCurso = cursoRecebido.idCurso;
-            curso.nomeCurso = cursoRecebido.nomeCurso;
+            curso.NomeCurso = cursoRecebido.NomeCurso;
 
             _listaCurso.Add(curso);
             return curso;
@@ -39,10 +38,10 @@ namespace CursoProfessor.Servico
 
         public Professor CadastrarProfessor(ProfessorViewModel professorRecebido)
         {
-            Professor professor = new Professor();
+            Professor professor = new Professor(professorRecebido);
 
-            professor.idProfessor = professorRecebido.idProfessor;
-            professor.nomeProfessor = professorRecebido.nomeProfessor;
+            professor.NomeProfessor = professorRecebido.NomeProfessor;
+            professor.IdadeProfessor = professorRecebido.IdadeProfessor;
 
             _listaProfessor.Add(professor);
             return professor;

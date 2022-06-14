@@ -1,4 +1,5 @@
-﻿using CursoProfessor.Servico;
+﻿using CursoProfessor.Modelo;
+using CursoProfessor.Servico;
 using CursoProfessor.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -9,7 +10,6 @@ namespace CursoProfessor.API.Controllers
     [Route("curso")]
     public class CursoController : ControllerBase
     {
-        // verificar erro        
         private DisciplinaServico _disciplinaServico = new DisciplinaServico();
 
         [HttpPost]

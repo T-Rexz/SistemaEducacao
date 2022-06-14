@@ -6,7 +6,8 @@ namespace CursoProfessor.ViewModel
 {
     public class ProfessorViewModel
     {
-        public Guid idProfessor { get; set; }
-        public string nomeProfessor { get; set; }
+        public Guid IdProfessor { get; set; }
+        public string NomeProfessor { get; set; }
+        public int IdadeProfessor { get; set; }
     }
 }

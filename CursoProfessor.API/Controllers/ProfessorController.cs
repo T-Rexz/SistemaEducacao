@@ -1,4 +1,5 @@
-﻿using CursoProfessor.Servico;
+﻿using CursoProfessor.Modelo;
+using CursoProfessor.Servico;
 using CursoProfessor.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,18 +14,18 @@ namespace CursoProfessor.API.Controllers
         [HttpPost]
         public ActionResult CadastrarProfessor([FromBody] ProfessorViewModel professorRecebido)
         {
-            string nomeCurso = professorRecebido.NomeCurso;
+            string nomeProfessor = professorRecebido.NomeProfessor;
 
             if (professorRecebido == null)
             {
                 return BadRequest("Professor não cadastrado. Favor efetuar o cadastro de professor.");
             }
-            if (string.IsNullOrEmpty(nomeCurso))
+            if (string.IsNullOrEmpty(nomeProfessor))
             {
                 return BadRequest("Nome do professor não informado.");
             }
 
-            Professor professorCriado = _disciplinaServico.CadastrarCurso(professorRecebido);
+            Professor professorCriado = _disciplinaServico.CadastrarProfessor(professorRecebido);
             return Created("curso", professorRecebido);
         }
     }
