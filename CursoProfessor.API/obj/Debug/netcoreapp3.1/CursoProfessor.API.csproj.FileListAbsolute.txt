@@ -17,3 +17,22 @@ E:\Git Arquivos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\Curso
 E:\Git Arquivos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\CursoProfessor.API.dll
 E:\Git Arquivos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\CursoProfessor.API.pdb
 E:\Git Arquivos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\CursoProfessor.API.genruntimeconfig.cache
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\bin\Debug\netcoreapp3.1\CursoProfessor.API.exe
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\bin\Debug\netcoreapp3.1\CursoProfessor.API.deps.json
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\bin\Debug\netcoreapp3.1\CursoProfessor.API.runtimeconfig.json
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\bin\Debug\netcoreapp3.1\CursoProfessor.API.runtimeconfig.dev.json
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\bin\Debug\netcoreapp3.1\CursoProfessor.API.dll
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\bin\Debug\netcoreapp3.1\CursoProfessor.API.pdb
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\CursoProfessor.API.csproj.AssemblyReference.cache
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\CursoProfessor.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\CursoProfessor.API.AssemblyInfoInputs.cache
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\CursoProfessor.API.AssemblyInfo.cs
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\CursoProfessor.API.csproj.CoreCompileInputs.cache
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\CursoProfessor.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\staticwebassets\CursoProfessor.API.StaticWebAssets.Manifest.cache
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\CursoProfessor.API.RazorTargetAssemblyInfo.cache
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\CursoProfessor.API.dll
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\CursoProfessor.API.pdb
+C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor.API\obj\Debug\netcoreapp3.1\CursoProfessor.API.genruntimeconfig.cache

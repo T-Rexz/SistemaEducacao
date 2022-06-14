@@ -8,12 +8,11 @@ namespace CursoProfessor.Servico
 {
     public class CursoServico
     {
-        public Curso CadastrarCurso()
-        {
-            Curso curso = new Curso();
-            Armazenamento.Cursos.Add(curso);
+        private List<Curso> _listaCursos = new List<Curso>();
 
-            return curso;
+        public List<Curso> ListarCurso()
+        {
+            return _listaCursos;
         }
     }
 }

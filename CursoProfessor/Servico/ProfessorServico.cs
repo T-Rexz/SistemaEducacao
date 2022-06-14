@@ -8,12 +8,11 @@ namespace CursoProfessor.Servico
 {
     public class ProfessorServico
     {
-        public Professor CadastrarProfessor()
-        {
-            Professor professor = new Professor();
-            Armazenamento.Professores.Add(professor);
+        private List<Professor> _listaProfessores = new List<Professor>();
 
-            return professor;
+        public List<Professor> ListarProfessor()
+        {
+            return _listaProfessores;
         }
     }
 }

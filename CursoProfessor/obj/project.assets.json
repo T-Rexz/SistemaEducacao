@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\T-Rex\\.nuget\\packages\\": {}
+    "C:\\Users\\UNILAGO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Git Arquivos\\SistemaEducacao\\CursoProfessor\\CursoProfessor.csproj",
+      "projectUniqueName": "C:\\Users\\UNILAGO\\source\\repos\\SistemaEducacao\\CursoProfessor\\CursoProfessor.csproj",
       "projectName": "CursoProfessor",
-      "projectPath": "E:\\Git Arquivos\\SistemaEducacao\\CursoProfessor\\CursoProfessor.csproj",
-      "packagesPath": "C:\\Users\\T-Rex\\.nuget\\packages\\",
-      "outputPath": "E:\\Git Arquivos\\SistemaEducacao\\CursoProfessor\\obj\\",
+      "projectPath": "C:\\Users\\UNILAGO\\source\\repos\\SistemaEducacao\\CursoProfessor\\CursoProfessor.csproj",
+      "packagesPath": "C:\\Users\\UNILAGO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\UNILAGO\\source\\repos\\SistemaEducacao\\CursoProfessor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\T-Rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\UNILAGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
