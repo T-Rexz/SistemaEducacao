@@ -9,6 +9,7 @@ namespace CursoProfessor.API.Controllers
     [Route("curso")]
     public class CursoController : ControllerBase
     {
+        // verificar erro        
         private DisciplinaServico _disciplinaServico = new DisciplinaServico();
 
         [HttpPost]
