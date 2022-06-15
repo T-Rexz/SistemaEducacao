@@ -29,5 +29,12 @@ namespace CursoProfessor.API.Controllers
             Curso cursoCriado = _disciplinaServico.CadastrarCurso(cursoRecebido);
             return Created("curso", cursoRecebido);
         }
+
+        [HttpGet]
+        public IActionResult ObterListaCurso()
+        {
+            List<object> listaCurso = _disciplinaServico.ListarDisciplina();
+            return Ok(listaCurso);
+        }
     }
 }

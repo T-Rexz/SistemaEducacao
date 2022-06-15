@@ -2,6 +2,7 @@
 using CursoProfessor.Servico;
 using CursoProfessor.ViewModel;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace CursoProfessor.API.Controllers
 {
@@ -27,6 +28,13 @@ namespace CursoProfessor.API.Controllers
 
             Professor professorCriado = _disciplinaServico.CadastrarProfessor(professorRecebido);
             return Created("curso", professorRecebido);
+        }
+
+        [HttpGet]
+        public IActionResult ObterListaProfessor()
+        {
+            List<object> listaProfessor = _disciplinaServico.ListarDisciplina();
+            return Ok(listaProfessor);
         }
     }
 }
