@@ -33,7 +33,7 @@ namespace CursoProfessor.API.Controllers
         [HttpGet]
         public IActionResult ObterListaProfessor()
         {
-            List<object> listaProfessor = _disciplinaServico.ListarDisciplina();
+            List<object> listaProfessor = _disciplinaServico.ListarProfessores();
             return Ok(listaProfessor);
         }
     }

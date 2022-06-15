@@ -12,13 +12,20 @@ namespace CursoProfessor.Servico
         private List<Curso> _listaCurso = Armazenamento.Cursos;
         private List<Professor> _listaProfessor = Armazenamento.Professores;
 
-        public List<object> ListarDisciplina()
+        public List<object> ListarProfessores()
         {
-            List<object> listaDisciplina = new List<object>();
+            List<object> listaProfessor = new List<object>();
 
-            listaDisciplina.AddRange(_listaCurso);
-            listaDisciplina.AddRange(_listaProfessor);
-            return listaDisciplina;
+            listaProfessor.AddRange(_listaProfessor);
+            return listaProfessor;
+        }
+
+        public List<object> ListarCursos()
+        {
+            List<object> listaCurso = new List<object>();
+
+            listaCurso.AddRange(_listaCurso);
+            return listaCurso;
         }
 
         public Curso CadastrarCurso(CursoViewModel cursoRecebido)
@@ -46,6 +53,10 @@ namespace CursoProfessor.Servico
             _listaProfessor.Add(professor);
             return professor;
         }
+        //public List<Professor> ListarProfessor()
+        //{
+        //    return _listaProfessor;
+        //}
 
         public Professor RemoveProfessor(Professor IdProf)
         {
@@ -56,9 +67,6 @@ namespace CursoProfessor.Servico
             return IdProf;
         }
 
-        //public List<Professor> ListarProfessor()
-        //{
-        //    return _listaProfessor;
-        //}
+
     }
 }
