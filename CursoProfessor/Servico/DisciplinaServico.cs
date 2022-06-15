@@ -47,6 +47,15 @@ namespace CursoProfessor.Servico
             return professor;
         }
 
+        public Professor RemoveProfessor(Professor IdProf)
+        {
+            //Professor professor = new Professor(professorRecebido);
+
+            //professor.IdProfessor = 
+
+            return IdProf;
+        }
+
         //public List<Professor> ListarProfessor()
         //{
         //    return _listaProfessor;
