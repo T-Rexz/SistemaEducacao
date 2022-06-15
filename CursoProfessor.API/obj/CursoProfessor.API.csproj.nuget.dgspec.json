@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UNILAGO\\source\\repos\\SistemaEducacao\\CursoProfessor.API\\CursoProfessor.API.csproj": {}
+    "E:\\Git Arquivos\\SistemaEducacao\\CursoProfessor.API\\CursoProfessor.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UNILAGO\\source\\repos\\SistemaEducacao\\CursoProfessor.API\\CursoProfessor.API.csproj": {
+    "E:\\Git Arquivos\\SistemaEducacao\\CursoProfessor.API\\CursoProfessor.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UNILAGO\\source\\repos\\SistemaEducacao\\CursoProfessor.API\\CursoProfessor.API.csproj",
+        "projectUniqueName": "E:\\Git Arquivos\\SistemaEducacao\\CursoProfessor.API\\CursoProfessor.API.csproj",
         "projectName": "CursoProfessor.API",
-        "projectPath": "C:\\Users\\UNILAGO\\source\\repos\\SistemaEducacao\\CursoProfessor.API\\CursoProfessor.API.csproj",
-        "packagesPath": "C:\\Users\\UNILAGO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UNILAGO\\source\\repos\\SistemaEducacao\\CursoProfessor.API\\obj\\",
+        "projectPath": "E:\\Git Arquivos\\SistemaEducacao\\CursoProfessor.API\\CursoProfessor.API.csproj",
+        "packagesPath": "C:\\Users\\T-Rex\\.nuget\\packages\\",
+        "outputPath": "E:\\Git Arquivos\\SistemaEducacao\\CursoProfessor.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UNILAGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\T-Rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\UNILAGO\\source\\repos\\SistemaEducacao\\CursoProfessor\\CursoProfessor.csproj": {
-                "projectPath": "C:\\Users\\UNILAGO\\source\\repos\\SistemaEducacao\\CursoProfessor\\CursoProfessor.csproj"
+              "E:\\Git Arquivos\\SistemaEducacao\\CursoProfessor\\CursoProfessor.csproj": {
+                "projectPath": "E:\\Git Arquivos\\SistemaEducacao\\CursoProfessor\\CursoProfessor.csproj"
               }
             }
           }
@@ -73,17 +73,17 @@
         }
       }
     },
-    "C:\\Users\\UNILAGO\\source\\repos\\SistemaEducacao\\CursoProfessor\\CursoProfessor.csproj": {
+    "E:\\Git Arquivos\\SistemaEducacao\\CursoProfessor\\CursoProfessor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UNILAGO\\source\\repos\\SistemaEducacao\\CursoProfessor\\CursoProfessor.csproj",
+        "projectUniqueName": "E:\\Git Arquivos\\SistemaEducacao\\CursoProfessor\\CursoProfessor.csproj",
         "projectName": "CursoProfessor",
-        "projectPath": "C:\\Users\\UNILAGO\\source\\repos\\SistemaEducacao\\CursoProfessor\\CursoProfessor.csproj",
-        "packagesPath": "C:\\Users\\UNILAGO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UNILAGO\\source\\repos\\SistemaEducacao\\CursoProfessor\\obj\\",
+        "projectPath": "E:\\Git Arquivos\\SistemaEducacao\\CursoProfessor\\CursoProfessor.csproj",
+        "packagesPath": "C:\\Users\\T-Rex\\.nuget\\packages\\",
+        "outputPath": "E:\\Git Arquivos\\SistemaEducacao\\CursoProfessor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UNILAGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\T-Rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -68,3 +68,45 @@ C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreap
 C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\UNILAGO\source\repos\SistemaEducacao\CursoProfessor\obj\Debug\netcoreapp3.1\CursoProfessor.csproj.CopyComplete
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Git Arquivos\SistemaEducacao\CursoProfessor\obj\Debug\netcoreapp3.1\CursoProfessor.csproj.CopyComplete

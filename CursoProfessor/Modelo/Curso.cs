@@ -9,11 +9,13 @@ namespace CursoProfessor.Modelo
     {
         public Guid IdCurso { get; set; }
         public string NomeCurso { get; set; }
+        public int HorasCurso { get; set; }
 
         public Curso(CursoViewModel cursoRecebido)
         {
             IdCurso = Guid.NewGuid();
             NomeCurso = cursoRecebido.NomeCurso;
+            HorasCurso = cursoRecebido.HorasCurso;
         }
     }
 }
