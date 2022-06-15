@@ -2,7 +2,9 @@
 using CursoProfessor.Servico;
 using CursoProfessor.ViewModel;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CursoProfessor.API.Controllers
 {
@@ -10,7 +12,8 @@ namespace CursoProfessor.API.Controllers
     [Route("curso")]
     public class CursoController : ControllerBase
     {
-        private DisciplinaServico _disciplinaServico = new DisciplinaServico();
+        // teste: era private por enquanto
+        public DisciplinaServico _disciplinaServico = new DisciplinaServico();
 
         [HttpPost]
         public ActionResult CadastrarCurso([FromBody] CursoViewModel cursoRecebido)
@@ -33,8 +36,22 @@ namespace CursoProfessor.API.Controllers
         [HttpGet]
         public IActionResult ObterListaCurso()
         {
-            List<object> listaCurso = _disciplinaServico.ListarCursos();
+            List<Curso> listaCurso = _disciplinaServico.ListarCursos();
             return Ok(listaCurso);
         }
+
+        [HttpGet("{id}")]
+        public IActionResult ObterCursoViaID(string id)
+        {
+            Curso curso = _disciplinaServico.ObterCurso(id);
+            if (curso == null)
+            {
+                return NotFound();
+            }
+            return Ok(curso);
+        }
+
+        // Fazer PUT (atualiza) do Curso
+        //[HttpPut]
     }
 }

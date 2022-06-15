@@ -4,9 +4,8 @@ namespace CursoProfessor.API.Controllers
 {
     public class DisciplinaController : Controller
     {
-        public IActionResult Inicio()
-        {
-            return Ok("Teste - Disciplina");
-        }
+        // Criar estrutura para relacionar Curso x Professor
+
+        // Criar estrutura para deletar Professor relacionado com curso
     }
 }

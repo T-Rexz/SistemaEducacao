@@ -33,8 +33,22 @@ namespace CursoProfessor.API.Controllers
         [HttpGet]
         public IActionResult ObterListaProfessor()
         {
-            List<object> listaProfessor = _disciplinaServico.ListarProfessores();
+            List<Professor> listaProfessor = _disciplinaServico.ListarProfessores();
             return Ok(listaProfessor);
         }
+
+        [HttpGet("{id}")]
+        public IActionResult ObterProfessorViaID(string id)
+        {
+            Professor professor = _disciplinaServico.ObterProfessor(id);
+            if (professor == null)
+            {
+                return NotFound();
+            }
+            return Ok(professor);
+        }
+
+        // Fazer PUT (atualizar) de Professor
+        //[HttpPut]
     }
 }

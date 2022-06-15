@@ -3,6 +3,7 @@ using CursoProfessor.Repositorio;
 using CursoProfessor.ViewModel;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CursoProfessor.Servico
@@ -12,20 +13,36 @@ namespace CursoProfessor.Servico
         private List<Curso> _listaCurso = Armazenamento.Cursos;
         private List<Professor> _listaProfessor = Armazenamento.Professores;
 
-        public List<object> ListarProfessores()
+        public Professor CadastrarProfessor(ProfessorViewModel professorRecebido)
         {
-            List<object> listaProfessor = new List<object>();
+            Professor professor = new Professor(professorRecebido);
+
+            professor.NomeProfessor = professorRecebido.NomeProfessor;
+            professor.IdadeProfessor = professorRecebido.IdadeProfessor;
+
+            _listaProfessor.Add(professor);
+            return professor;
+        }
+
+        public List<Professor> ListarProfessores()
+        {
+            List<Professor> listaProfessor = new List<Professor>();
 
             listaProfessor.AddRange(_listaProfessor);
             return listaProfessor;
         }
 
-        public List<object> ListarCursos()
+        public Professor ObterProfessor(string idPRecebido)
         {
-            List<object> listaCurso = new List<object>();
-
-            listaCurso.AddRange(_listaCurso);
-            return listaCurso;
+            List<Professor> listaP = ListarProfessores();
+            if (listaP.Any(u => u.IdProfessor.ToString() == idPRecebido))
+            {
+                Professor professor = listaP
+                   .Where(u => u.IdProfessor.ToString() == idPRecebido)
+                   .First();
+                return professor;
+            }
+            return null;
         }
 
         public Curso CadastrarCurso(CursoViewModel cursoRecebido)
@@ -38,32 +55,31 @@ namespace CursoProfessor.Servico
             return curso;
         }
 
-        //public List<Curso> ListarCurso()
-        //{
-        //    return _listaCurso;
-        //}
-
-        public Professor CadastrarProfessor(ProfessorViewModel professorRecebido)
+        public List<Curso> ListarCursos()
         {
-            Professor professor = new Professor(professorRecebido);
+            List<Curso> listaCurso = new List<Curso>();
 
-            professor.NomeProfessor = professorRecebido.NomeProfessor;
-            professor.IdadeProfessor = professorRecebido.IdadeProfessor;
-
-            _listaProfessor.Add(professor);
-            return professor;
+            listaCurso.AddRange(_listaCurso);
+            return listaCurso;
         }
-        //public List<Professor> ListarProfessor()
-        //{
-        //    return _listaProfessor;
-        //}
 
+        public Curso ObterCurso(string idCRecebido)
+        {
+            List<Curso> listaC = ListarCursos();
+            if (listaC.Any(u => u.IdCurso.ToString() == idCRecebido))
+            {
+                Curso curso = listaC
+                   .Where(u => u.IdCurso.ToString() == idCRecebido)
+                   .First();
+                return curso;
+            }
+            return null;
+        }
+
+        // resolver método de deletar professor
         public Professor RemoveProfessor(Professor IdProf)
         {
-            //Professor professor = new Professor(professorRecebido);
-
-            //professor.IdProfessor = 
-
+            // codificar
             return IdProf;
         }
 
