@@ -48,7 +48,10 @@ namespace CursoProfessor.API.Controllers
             return Ok(professor);
         }
 
-        // Fazer PUT (atualizar) de Professor
-        //[HttpPut]
+        // Fazer PUT (atualizar) do Professor por ID
+        //[HttpPut("{id}")]
+
+        // Faze DELETE (deletar) do Professor por ID
+        //[HttpDelete("{id}")]
     }
 }

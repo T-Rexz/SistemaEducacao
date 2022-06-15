@@ -1,4 +1,5 @@
 ﻿using CursoProfessor.Modelo;
+using CursoProfessor.Repositorio;
 using CursoProfessor.Servico;
 using CursoProfessor.ViewModel;
 using Microsoft.AspNetCore.Mvc;
@@ -14,6 +15,7 @@ namespace CursoProfessor.API.Controllers
     {
         // teste: era private por enquanto
         public DisciplinaServico _disciplinaServico = new DisciplinaServico();
+        public Armazenamento _armazenamento = new Armazenamento();
 
         [HttpPost]
         public ActionResult CadastrarCurso([FromBody] CursoViewModel cursoRecebido)
@@ -51,7 +53,10 @@ namespace CursoProfessor.API.Controllers
             return Ok(curso);
         }
 
-        // Fazer PUT (atualiza) do Curso
-        //[HttpPut]
+        // Fazer PUT (atualizar) do Curso por ID
+        //[HttpPut("{id}")]
+
+        // Faze DELETE (deletar) do Curso por ID
+        //[HttpDelete("{id}")]
     }
 }
